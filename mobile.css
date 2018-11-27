@@ -1,0 +1,85 @@
+body {
+  width: 100vw;
+}
+
+main, header, aside, section, article, div, footer {
+  display: block;
+  box-sizing: border-box;
+  border: 1px solid black;
+  width: 100%;
+}
+
+header {
+  height: 75px;
+  line-height: 75px;
+  box-sizing: border-box;
+  border: .5px solid black;
+}
+
+aside {
+  height: 150px;
+  line-height: 150px;
+  box-sizing: border-box;
+  border: 1px solid black;
+}
+
+section article {
+  height: 125px;
+  line-height: 125px;
+  box-sizing: border-box;
+  border: 1px solid black;
+}
+
+div div div {
+  float: left;
+  width: 50%;
+  height: 250px;
+  line-height: 250px;
+  box-sizing: border-box;
+  border: 1px solid black;
+}
+
+footer {
+  clear: both;
+  width: 100%;
+  height: 80px;
+  line-height: 80px;
+  box-sizing: border-box;
+  border: 1px solid black;
+}
+
+article:first-of-type {
+  background-color: rgb(34, 0, 225);
+}
+
+article:last-of-type {
+  background-color: rgb(200, 25, 194);
+}
+
+main div:nth-child(1) {
+  background-color: rgb(50, 175, 133);
+}
+
+main div:nth-child(2) {
+  background-color: rgb(109, 65, 150);
+}
+
+main div:nth-child(3) {
+  background-color: rgb(125, 101, 65);
+}
+
+main div:nth-child(4) {
+  background-color: rgb(65, 101, 125);
+}
+
+header {
+  background-color: rgb(65, 150, 115);
+}
+
+aside {
+  background-color: rgb(50, 175, 67);
+}
+
+footer {
+  background-color: rgb(200, 188, 25);
+}
